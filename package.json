@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.6",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "@types/google.maps": "^3.47.4",
     "@types/jest": "^27.4.0",
     "@types/node": "^16.11.24",
     "@types/react": "^17.0.39",

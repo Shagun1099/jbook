@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+body{
+  margin:0;
+  font-family: 'Nunito', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(250, 41, 205, 0.347);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.app > h1{
+   color: deepskyblue;
+   font-weight: 700;
+   font-size: 40px; 
+}
+
+.middle{
+  width:600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.type{
+  display: flex;
+  align-items: center;
+}
+
+.type > p{
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+.type > .color{
+  height: 20px;
+  width: 20px;
+}
+
+.blue{
+  background-color: blue;
+}
+.red{
+  background-color: red;
+}
+
+.button{
+  height: 40px;
+  padding: 10px;
+  color: white;
+  background-color: deepskyblue;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 3px;
+  outline: 0;
+  border: none;
+  transition: all 0.3 linear;
+  font-family: 'Nunito', sans-serif;
+}
+
+.button:hover,.button:focus{
+  transform: scale(1.02);
 }
